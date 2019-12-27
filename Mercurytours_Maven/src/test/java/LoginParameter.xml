@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test1">
+  <parameter name="uname" value="testing"/>
+  <parameter name="upass" value="testing"/>
+    <classes>
+      <class name="com.mercury.tours.Parameter_Annotation_SignOn"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Test2">
+  <parameter name="uname" value="dixit"/>
+  <parameter name="upass" value="dixit"/>
+    <classes>
+      <class name="com.mercury.tours.Parameter_Annotation_SignOn"/>
+    </classes>
+  </test>
+  
+    <test name="Test3">
+  <parameter name="uname" value="testabhi"/>
+  <parameter name="upass" value="testabhi"/>
+    <classes>
+      <class name="com.mercury.tours.Parameter_Annotation_SignOn"/>
+    </classes>
+  </test>
+
+</suite> <!-- Suite -->

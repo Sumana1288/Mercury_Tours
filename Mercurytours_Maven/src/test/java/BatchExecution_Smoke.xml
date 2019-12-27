@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="1" parallel="tests">
+  <test name="Test1">
+    <classes>
+      <class name="com.mercury.tours.BatchExecution_Smoke"/>
+      <class name="com.mercury.tours.ActionClass_Drag_Drop"/>
+      <class name="com.mercury.tours.ActionClass_Mouse_Over"/>
+      <class name="com.mercury.tours.Netbanking_Textbox"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

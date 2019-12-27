@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" thread-count="2" parallel="tests">
+  <test name="ChromeTest">
+  <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Testing"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="IETest">
+  <parameter name="browser" value="IE"/>
+    <classes>
+      <class name="com.mercury.tours.CrossBrowser_Testing"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
